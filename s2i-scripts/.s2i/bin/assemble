@@ -10,6 +10,7 @@ config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
 
+yum install wget
 wget -q https://raw.githubusercontent.com/dapr/cli/master/install/install.sh -O - | /bin/bash
 
 echo "---> Installing application source"
